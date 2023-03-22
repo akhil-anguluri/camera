@@ -1,0 +1,56 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+#start-btn.hover
+{
+    transform: scale(1.1); 
+} 
+body{
+    background: linear-gradient(azure, whitesmoke)
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:inherit;
+    font-weight: 900px; ;
+}
+h4{
+    font-variant: inherit; 
+    font-kerning: auto;  
+    font-variant-east-asian: jis83;
+    font-size: x-large;
+}
+.copy_right_footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2);
+    border-radius: 50px;
+    padding: 30px;
+}
+img:hover
+{
+    border-radius: 140px;
+    transform: scale(1.1);
+}
